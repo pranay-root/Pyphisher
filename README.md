@@ -8,31 +8,47 @@
 ##### Install dependencies (git, python, php ssh)
 
  - For Debian (Ubuntu, Kali-Linux, Parrot)
-    - ```sudo apt install git python3 python3-pip php openssh-client -y```
+   ```
+     sudo apt install git python3 python3-pip php openssh-client -y
+     ```
  - For Arch (Manjaro)
-    - ```sudo pacman -S git python3 python-pip php openssh --noconfirm```
+     ```
+   sudo pacman -S git python3 python-pip php openssh --noconfirm
+     ```
  - For Redhat(Fedora)
-    - ```sudo dnf install git python3 php openssh -y```
+   ```
+   sudo dnf install git python3 php openssh -y
+   ```
  - For Termux
-    - ```pkg install git python3 python-pip php openssh -y```
+   ```
+   pkg install git python3 python-pip php openssh -y
+   ```
 
 ##### Clone this repository
 
- - ```git clone https://gitlab.com/KasRoudra/PyPhisher```
+  ```
+  git clone https://gitlab.com/KasRoudra/PyPhisher
+```
 
 ##### Enter the directory
- - ```cd PyPhisher```
+  ```
+  cd PyPhisher
+```
 
 ##### Install all modules
- - ```pip3 install -r files/requirements.txt --break-system-packages```
+  ```
+  pip3 install -r files/requirements.txt --break-system-packages
+```
 
 ##### Run the tool
- - ```python3 pyphisher.py```
-
-
+```
+python3 pyphisher.py
 ```
 
 ### Pip
+```
+
+
  - `pip3 install pyphisher` [For Termux]
  - `sudo pip3 install pyphisher  --break-system-packages` [For Linux]
  - `pyphisher`
