@@ -27,7 +27,7 @@
 ##### Clone this repository
 
   ```
-  git clone https://gitlab.com/KasRoudra/PyPhisher
+  git clone https://github.com/pranay-root/Pyphisher.git
 ```
 
 ##### Enter the directory
